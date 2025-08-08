@@ -2,9 +2,8 @@
 
 ## Overview
 
-- A Lambda function that sends **automated email notifications** based on key information from detected threat events
-- Invoked by upstream classifier or responder systems, delivering alerts to pre-subscribed email recipients via AWS SNS
-- Serves as a **notification module** that improves response speed by ensuring immediate awareness of security incidents
+- A Lambda function that sends **email notifications** based on key information from detected threat events
+- Invoked by upstream classifier or responder systems, delivering alerts to email recipients via AWS SNS
 
 ## Tech Stack
 
@@ -45,6 +44,11 @@
     
     Logs errors and returns a `500` status code if the SNS notification fails
     
+## Result
+
+
+<img width="340" height="217" alt="image" src="https://github.com/user-attachments/assets/6d392a15-efba-4034-87af-2dc181c74140" />
+
 
 ## Motivation / Impact
 
